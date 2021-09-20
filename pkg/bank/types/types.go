@@ -12,6 +12,8 @@ const (
 
 type PAN string
 
+type Category string
+
 type Card struct {
 	ID int
 	PAN PAN
@@ -26,6 +28,7 @@ type Card struct {
 type Payment struct {
 	ID int
 	Amount Money
+	Category Category
 }
 
 type PaymentSource struct {

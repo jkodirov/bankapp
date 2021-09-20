@@ -1,7 +1,7 @@
 package payment
 
 import (
-	"bank/pkg/bank/types"
+	"github.com/jkodirov/bankapp/pkg/bank/types"
 	"fmt"
 )
 
